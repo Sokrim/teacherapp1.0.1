@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="item_offset">10dp</dimen>
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="backdrop_title">30dp</dimen>
+    <dimen name="backdrop_subtitle">18dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_album_radius">0dp</dimen>
+    <dimen name="album_cover_height">160dp</dimen>
+    <dimen name="album_title_padding">10dp</dimen>
+    <dimen name="album_title">15sp</dimen>
+    <dimen name="songs_count_padding_bottom">5dp</dimen>
+    <dimen name="songs_count">12dp</dimen>
+    <dimen name="ic_album_overflow_width">30dp</dimen>
+    <dimen name="ic_album_overflow_height">40dp</dimen>
+    <dimen name="ic_album_overflow_margin_top">10dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="padding">16dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_height2">200dp</dimen>
+
+    <dimen name="small_padding">5dp</dimen>
+    <dimen name="login_logo_size">80dp</dimen>
+    <dimen name="app_name_size">18sp</dimen>
+    <dimen name="ten_dp">5dp</dimen>
+    <dimen name="thirteen_sp">13sp</dimen>
+    <dimen name="eghithteen_sp">14sp</dimen>
+    <dimen name="fithteen_dp">15dp</dimen>
+
+
+
+    <dimen name="swipe_item_list">160dp</dimen>
+
+    <dimen name="horizontal_list_item_height">150dp</dimen>
+    <dimen name="margin_element_list_item">10dp</dimen>
+    <dimen name="multiple_list_item_size_rock_stars">29sp</dimen>
+
+    <dimen name="snap_list_view_width">190dp</dimen>
+
+    <dimen name="snap_list_view_height">100dp</dimen>
+    <dimen name="snap_list_view_margin">10dp</dimen>
+
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_huge">32dp</dimen>
+    <dimen name="spacing_extra_huge">64dp</dimen>
+
+    <dimen name="contact_margin_left">50dp</dimen>
+    <dimen name="contact_size_profile_image">40dp</dimen>
+    <dimen name="contact_size_text">30sp</dimen>
+
+    <dimen name="function_icon">60dp</dimen>
+    <dimen name="function_wCard">120dp</dimen>
+    <dimen name="function_hCard">130dp</dimen>
+    <dimen name="five_margin">6dp</dimen>
+    <dimen name="function_icon_padding">10dp</dimen>
+    <dimen name="textsize_12sp">10sp</dimen>
+    <dimen name="textSize_13sp">13sp</dimen>
+    <dimen name="login_logo_marginTop">10dp</dimen>
+
+    <dimen name="social_wIcon">20dp</dimen>
+    <dimen name="social_hIcon">20dp</dimen>
+</resources>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    swipe:leftEdgeSwipeOffset="0dp"
+    swipe:rightEdgeSwipeOffset="0dp">
+
+    <LinearLayout
+        android:id="@+id/item_list_bottom_wrapper"
+        android:layout_width="@dimen/swipe_item_list"
+        android:layout_height="match_parent"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:id="@+id/swipeLinearLayout_edit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorOrange"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_edit"/>
+            <TextView
+                android:id="@+id/swipe_item_list_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Edit"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/swipeLinearLayout_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorRed"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_delete"/>
+            <TextView
+                android:id="@+id/swipe_item_list_delete_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Delete"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+
+
+        <!--<TextView
+            android:id="@+id/swipe_item_list_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_bright"
+            android:gravity="center"
+            android:text="Edit"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/swipe_item_list_delete_text_view"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/holo_red_light"
+            android:gravity="center"
+            android:text="Delete"
+            android:textColor="@android:color/white" />-->
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/bulletin_Card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <RelativeLayout
+            android:id="@+id/cardBorder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bulletinboard_card_view"
+            >
+
+            <RelativeLayout
+                android:id="@+id/title_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/applicable_Spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorLightBlue">
+                </TextView>
+
+
+                <!--<TextView-->
+                <!--android:id="@+id/applicable"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+                <!--android:clickable="true"-->
+                <!--android:hint="All"-->
+                <!--android:layout_marginStart="10dp"-->
+                <!--android:layout_marginEnd="10dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:textColor="@color/colorLightBlue"-->
+                <!--android:focusable="true"/>-->
+
+                <TextView
+                    android:id="@+id/lastPostDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--------"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toEndOf="@id/applicable_Spinner"
+                    android:textColor="@color/color_grey"
+                    />
+
+
+                <TextView
+                    android:id="@+id/capacity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(1.8KB)"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="@color/color_grey"
+                    />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/bulletinBoard_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_layout"
+                android:hint="Bulletin Board Name"
+                android:clickable="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/album_title"
+                android:textSize="@dimen/album_title" />
+
+            <TextView
+                android:id="@+id/alert"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_below="@id/bulletinBoard_Name"
+                android:background="@drawable/circlebackgroundred"
+                android:hint="2"
+                android:visibility="visible"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"/>
+
+            <View
+                android:id="@+id/lineView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/color_grey"
+                android:layout_below="@id/alert"
+                android:layout_margin="10dp"></View>
+
+            <RelativeLayout
+                android:id="@+id/title_layout2"
+                android:layout_below="@id/lineView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/anonymous"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/studentPost_icon"
+                    android:layout_marginStart="30dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:hint="Registered"
+                    android:padding="5dp"
+                    android:textColor="@color/color_grey" />
+
+                <ImageView
+                    android:id="@+id/studentPost_icon"
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:clickable="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_action_circle"
+                    android:focusable="true"
+                    android:contentDescription="TODO"/>
+
+                <LinearLayout
+                    android:id="@+id/numberOfArticle"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/comment_Icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_gravity="bottom"
+                        android:src="@drawable/ic_action_comment"/>
+                    <TextView
+                        android:id="@+id/userComment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint=" 2"
+                        android:padding="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_toStartOf="@id/wordCount"
+                        android:textColor="@color/color_grey"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/wordCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint=" 20 words"
+                    android:padding="5dp"
+                    android:layout_toStartOf="@id/numberOfArticle"
+                    android:textColor="@color/color_grey"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</com.daimajia.swipe.SwipeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#11B272</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark1">#303F9F</color>
+    <color name="colorDefault1">#0E408A</color>
+    <color name="colorDefault">#11B272</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBrown">#bc8f42</color>
+    <color name="colorGreen">#00bf33</color>
+    <color name="colorPurple">#7c4dff</color>
+    <color name="colorRed">#ec150e</color>
+    <color name="colorLightBlue">#10b9d7</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlue">#2c45e7</color>
+    <color name="colorSky">#00ffe1</color>
+    <color name="colorYellow">#ffe11a</color>
+    <color name="colorOrange">#ff901a</color>
+    <color name="color_light_green">#11ff04</color>
+    <color name="color_light_grey">#e2e2e2</color>
+    <color name="color_grey">#c9c9c9</color>
+    <color name="color_darkGrey">#898989</color>
+    <color name="colorDarkGreen">#068340</color>
+
+   <color name="album_title">#4c4c4c</color>
+
+    <color name="teacherColor">#4E8F00</color>
+
+    <color name="teacherColor2">#62BC64</color>
+
+    <color name="googleColor">#DD4B39</color>
+    <color name="facebookColor">#3B5998</color>
+    <color name="twitterColor">#50ABF1</color>
+
+    <color name="sheet">#186289</color>
+    <color name="sheetDark">#0d4360</color>
+    <color name="color">#52D1E1</color>
+
+
+    <color name="actionBar">#0D07C2</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorAddFavoritesSection">#FFCC80</color>
+</resources>

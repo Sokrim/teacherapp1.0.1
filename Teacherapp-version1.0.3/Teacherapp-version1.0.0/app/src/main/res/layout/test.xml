@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:gravity="center_horizontal"
+    tool:showIn="kit.c_learning.teacherapp.Activity_Question">
+
+<LinearLayout
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="20dp">
+        <!--    android:layout_marginBottom="20dp" -->
+            <Button
+                android:id="@+id/yesNo"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:clickable="true"
+                android:background="@drawable/button_shape"
+                android:text="@string/YesNo"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/agreeDisagree"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/agree_disagree"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:clickable="true"
+                android:textColor="@color/colorWhite"
+                />
+            <Button
+                android:id="@+id/twoChoice"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/button_shape"
+                android:clickable="true"
+                android:text="@string/TwoChoice"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/threeChoice"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/ThreeChoice"
+                android:clickable="true"
+                android:textColor="@color/colorWhite"
+                />
+            <Button
+                android:id="@+id/fourChoice"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/FourChoice"
+                android:clickable="true"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/fiveChoice"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/FiveChoice"
+                android:clickable="true"
+                android:textColor="@color/colorWhite"
+                />
+
+            <Button
+                android:id="@+id/commentOnly"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:clickable="true"
+                android:background="@drawable/button_shape"
+                android:text="@string/CommentOnly"
+                android:textColor="@color/colorWhite"/>
+               <!-- android:layout_marginBottom="40dp"-->
+                />
+        </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/yesNoComment"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/button_shape"
+                android:clickable="true"
+                android:text="@string/YesNoComment"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/agreeDisagreeComment"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_shape"
+                android:clickable="true"
+                android:text="@string/agree_disagree_comment"
+                android:textColor="@color/colorWhite"
+                />
+
+            <Button
+                android:id="@+id/twoChoiceComment"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/TwoChoice_Comment"
+                android:clickable="true"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/threeChoiceComment"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/ThreeChoice_Comment"
+                android:clickable="true"
+                android:textColor="@color/colorWhite"
+                />
+            <Button
+                android:id="@+id/fourChoiceComment"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/FourChoice_Comment"
+                android:clickable="true"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/fiveChoiceComment"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/FiveChoice_Comment"
+                android:clickable="true"
+                android:textColor="@color/colorWhite"
+                android:layout_marginBottom="40dp"
+                />
+        </LinearLayout>
+</LinearLayout>
+
+    <Button
+        android:id="@+id/okay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_corner"
+        android:clickable="true"
+        android:text="Okay"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>

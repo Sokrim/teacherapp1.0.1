@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="function_icon">80dp</dimen>
+    <dimen name="function_wCard">120dp</dimen>
+    <dimen name="function_hCard">130dp</dimen>
+    <dimen name="five_margin">6dp</dimen>
+    <dimen name="function_icon_padding">10dp</dimen>
+    <dimen name="textsize_12sp">10sp</dimen>
+    <dimen name="textSize_13sp">13sp</dimen>
+    <dimen name="login_logo_marginTop">10dp</dimen>
+    <dimen name="social_wIcon">40dp</dimen>
+    <dimen name="social_hIcon">20dp</dimen>
+</resources>

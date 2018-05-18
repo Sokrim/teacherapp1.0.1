@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/create_course"
+        android:icon="@drawable/ic_menu_settings"
+        android:title="Create New Course">
+    </item>
+
+    <item android:id="@+id/course_completed"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="Course Completed">
+    </item>
+</menu>

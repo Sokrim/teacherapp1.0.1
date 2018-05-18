@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="login_logo_size">100dp</dimen>
+    <dimen name="app_name_size">24sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="thirteen_sp">13sp</dimen>
+    <dimen name="eghithteen_sp">18sp</dimen>
+    <dimen name="ten_dp">15dp</dimen>
+    <dimen name="small_padding">5dp</dimen>
+
+    <dimen name="function_icon">70dp</dimen>
+    <dimen name="function_wCard">120dp</dimen>
+    <dimen name="function_hCard">130dp</dimen>
+    <dimen name="five_margin">6dp</dimen>
+    <dimen name="function_icon_padding">10dp</dimen>
+    <dimen name="textsize_12sp">10sp</dimen>
+    <dimen name="textSize_13sp">13sp</dimen>
+    <dimen name="login_logo_marginTop">10dp</dimen>
+    <dimen name="social_wIcon">40dp</dimen>
+    <dimen name="social_hIcon">20dp</dimen>
+</resources>

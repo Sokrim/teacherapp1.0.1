@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kit.c_learning.teacherapp.Questionnaires">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/questionnaires_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/teacherColor"
+        android:theme="@style/AppTheme.AppBarOverlay"/>
+    <LinearLayout
+        android:id="@+id/Button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:orientation="horizontal"
+        android:layout_below="@+id/questionnaires_toolbar">
+
+        <Button
+            android:id="@+id/quick_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/quick_guest"
+            android:clickable="true"
+            android:textColor="@color/colorDefault1"/>
+      <!--  <Button
+            android:id="@+id/create_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/create_guest"
+            android:clickable="true"
+            android:textColor="@color/colorDefault"
+           />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/quick_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button_layout"
+        android:visibility="gone">
+        <include layout="@layout/test"></include>
+    </LinearLayout>
+
+    <include
+        android:layout_below="@id/quick_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/content_main"></include>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="41dp"
+        app:backgroundTint="@color/teacherColor"
+        android:src="@drawable/ic_action_plus"/>
+
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/totalResult_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/teacherColor"
+        android:theme="@style/AppTheme.AppBarOverlay" />
+
+    <LinearLayout
+        android:id="@+id/top_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/totalResult_toolbar">
+        <Spinner
+            android:id="@+id/display_Questionnaires"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            />
+
+
+        <Spinner
+            android:id="@+id/guest"
+            android:layout_width="135dp"
+            android:layout_height="match_parent"
+
+            />
+        <ImageView
+            android:id="@+id/printIcon"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_print"
+            android:contentDescription="TODO"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/teacher_comment"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_comment"
+            android:contentDescription="TODO"
+            android:clickable="true"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/question_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/top_Layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/qTitle_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="[Q] Comment Only"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorDefault1"
+                />
+            <EditText
+                android:id="@+id/updateQuestion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:textSize="16sp"
+                android:hint="@string/enteringQuestion"
+                android:cursorVisible="false"
+                android:clickable="true"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/color_grey"
+        android:layout_below="@id/question_Layout">
+
+    </View>
+
+    <TextView
+        android:id="@+id/submit_EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit :"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/question_Layout"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorRed"
+        android:hint="1"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/question_Layout"
+        android:layout_toEndOf="@id/submit_EditText"/>
+
+
+    <LinearLayout
+        android:id="@+id/chart_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:layout_below="@id/submit_EditText">
+        <com.github.mikephil.charting.charts.PieChart
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/piechart"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

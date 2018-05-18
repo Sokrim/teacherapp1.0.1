@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/edit_questionnairesInfo"
+        android:orderInCategory="100"
+        android:title="@string/edit_questionnairesInfo" />
+
+    <item
+        android:id="@+id/edit_question"
+        android:orderInCategory="101"
+        android:title="@string/edit_question" />
+    <item
+        android:id="@+id/copyQuestion"
+        android:orderInCategory="101"
+        android:title="@string/CopyQuestion" />
+    <item
+        android:id="@+id/downloadCSV"
+        android:orderInCategory="101"
+        android:title="@string/downloadCSV" />
+    <item
+        android:id="@+id/reset"
+        android:orderInCategory="101"
+        android:title="@string/reset" />
+    <item
+        android:id="@+id/deleteQuestion"
+        android:orderInCategory="101"
+        android:title="@string/deleteQuestionnaires" />
+
+</menu>

@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">TeacherApp</string>
+    <string name="material"><![CDATA[Teaching& Learning Materials]]></string>
+    <string name="attendance_history">Attendance History</string>
+    <string name="message_box">Message Box</string>
+    <string name="profile">Profile</string>
+    <string name="assignments">Assignments</string>
+    <string name="bulletin_board">Bulletin Board</string>
+    <string name="exercises">Exercises </string>
+    <string name="quizzes">Quizzes \n</string>
+    <string name="questionnaires">Questionnaires \n</string>
+    <string name="student_account">Student Account</string>
+    <string name="news">News </string>
+    <string name="signUp">Don\'t have account? Sign Up</string>
+    <string name="Login">Already have an account? Login</string>
+    <string name="checkBox">Keep me logged in</string>
+    <string name="forgotPW">Forgot your password?</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email_or_id">Email or ID</string>
+
+    <string name="quick_guest">Quick Questionnaires</string>
+    <string name="create_guest">Create Questionnaires</string>
+
+    <string name="YesNo">Yes/No</string>
+    <string name="YesNoComment"> Yes/No \n *Comment</string>
+    <string name="agree_disagree">Agree/Disagree</string>
+    <string name="agree_disagree_comment">Agree/Disagree \n *Comment</string>
+    <string name="TwoChoice">Two Choices</string>
+    <string name="TwoChoice_Comment">Two Choices \n *Comment</string>
+    <string name="ThreeChoice">Three Choices</string>
+    <string name="ThreeChoice_Comment">Three Choices \n *Comment</string>
+    <string name="FourChoice">Four Choices</string>
+    <string name="FourChoice_Comment">Four Choices \n *Comment</string>
+    <string name="FiveChoice">Five Choices</string>
+    <string name="FiveChoice_Comment">Five Choices \n *Comment</string>
+    <string name="CommentOnly">Comment Only</string>
+    <string name="edit_questionnairesInfo">Edit Questionnaires Information</string>
+    <string name="edit_question">Edit Question</string>
+    <string name="CopyQuestion">Copy of the Questionnaires</string>
+    <string name="downloadCSV">Download answer CSV</string>
+    <string name="reset">Reset submission status</string>
+    <string name="deleteQuestionnaires">Delete Questionnaires</string>
+    <string name="attendance_tracking">Attendance Tracking</string>
+    <string name="enteringQuestion">Please Select the answer to the question</string>
+
+
+    <string name="edit_bulletinBoard">Edit Bulletin Board Information</string>
+    <string name="deleteBulletin">Delete Bulletin Board</string>
+
+    <string name="emptyThread">There is no particular thread available right now</string>
+
+    <string-array name="quick_quest">
+        <item>Yes/No</item>
+        <item> Yes/No \n *Comment</item>
+        <item>Agree/Disagree</item>
+        <item>Agree/Disagree \n *Comment</item>
+        <item>Two Choices</item>
+        <item>Two Choices \n *Comment</item>
+        <item>Three Choices</item>
+        <item>Three Choices \n *Comment</item>
+        <item>Four Choices</item>
+        <item>Four Choices \n *Comment</item>
+        <item>Five Choices</item>
+        <item>Five Choices \n *Comment</item>
+        <item>Comment Only</item>
+    </string-array>
+
+    <string-array name="displayQuestionnaires">
+        <item>Now Public</item>
+        <item>Deadline of Submission</item>
+        <item>Non-disclosure</item>
+    </string-array>
+
+    <string-array name="guest">
+        <item>No guest</item>
+        <item>Anonymous</item>
+        <item>Registered</item>
+    </string-array>
+
+
+    <string-array name="applicableStudent">
+        <item>All</item>
+        <item>Choice</item>
+        <item>None</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

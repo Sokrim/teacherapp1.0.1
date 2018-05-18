@@ -1,0 +1,110 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/courseCard_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBrown">
+
+            <RelativeLayout
+                android:id="@+id/title_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/fab_margin"
+                >
+
+                <TextView
+                    android:id="@+id/course_Code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:hint="441860"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/colorBlack"
+                    android:focusable="true"/>
+
+                <TextView
+                    android:id="@+id/semester_Period"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Year 2017"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/colorBlack"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/title_Course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_layout"
+                android:hint="C programming"
+                android:clickable="true"
+                android:padding="@dimen/small_padding"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/album_title" />
+
+            <View
+                android:id="@+id/lineView"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhite"
+                android:layout_below="@id/title_Course"
+                android:layout_margin="10dp"></View>
+
+            <RelativeLayout
+                android:id="@+id/title_layout2"
+                android:layout_below="@id/lineView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/numberOfStudent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="4"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/rectanglebackgrounddarkwhite"
+                    android:layout_marginStart="10dp"
+                    android:layout_alignParentStart="true"
+                    android:textColor="@color/colorLightBlue"
+                    />
+
+                <TextView
+                    android:id="@+id/assistant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Assistant"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:background="@drawable/rectanglebackgrounddarkwhite"
+                    android:layout_marginEnd="10dp"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="@color/colorLightBlue"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
